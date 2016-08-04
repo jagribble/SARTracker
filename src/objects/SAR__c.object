@@ -55,6 +55,36 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>SAR_Action__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What was the action you took?</inlineHelpText>
+        <label>Action</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SAR_Result__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What was the Result?</inlineHelpText>
+        <label>Result</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SAR_Situation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What was the situation?</inlineHelpText>
+        <label>Situation</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
     <label>SAR</label>
     <listViews>
         <fullName>All</fullName>
@@ -62,9 +92,10 @@
         <label>All</label>
     </listViews>
     <nameField>
+        <displayFormat>SAR-{000}</displayFormat>
         <label>SAR Name</label>
         <trackFeedHistory>true</trackFeedHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>SARs</pluralLabel>
     <searchLayouts/>

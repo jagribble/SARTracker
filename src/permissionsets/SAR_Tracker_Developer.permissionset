@@ -5,6 +5,16 @@
         <visible>false</visible>
     </applicationVisibilities>
     <description>Permission Set generated for access to custom object SAR for the app SAR Tracker</description>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SAR__c.SAR_Action__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SAR__c.SAR_Result__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <label>SAR Tracker Developer</label>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -15,6 +25,10 @@
         <object>SAR__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <pageAccesses>
+        <apexPage>ShowSAR</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <tabSettings>
         <tab>SAR__c</tab>
         <visibility>None</visibility>
