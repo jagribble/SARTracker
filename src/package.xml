@@ -22,6 +22,7 @@
     </types>
     <types>
         <members>SAR_Tracker_Developer</members>
+        <members>SAR_User</members>
         <name>PermissionSet</name>
     </types>
     <types>

@@ -99,5 +99,5 @@
     </nameField>
     <pluralLabel>SARs</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
