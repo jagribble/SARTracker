@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mavens PM App</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <namespacePrefix>MavensPM</namespacePrefix>
+    <types>
+        <members>Project_Management</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Meeting_Notes__c.Attendees__c</members>
+        <members>Meeting_Notes__c.Date__c</members>
+        <members>Meeting_Notes__c.Notes__c</members>
+        <members>Project__c.Description__c</members>
+        <members>Project__c.End_Date__c</members>
+        <members>Project__c.Project_Number__c</members>
+        <members>Project__c.Start_Date__c</members>
+        <members>Project__c.Status__c</members>
+        <members>Requirement__c.Date_Captured__c</members>
+        <members>Requirement__c.Details__c</members>
+        <members>Requirement__c.Project__c</members>
+        <members>Requirement__c.Req_Number__c</members>
+        <members>Requirement__c.Solution_Detail__c</members>
+        <members>Requirement__c.Solution_Type__c</members>
+        <members>Requirement__c.Status__c</members>
+        <members>Requirement__c.Use_Case__c</members>
+        <members>Risks__c.Category__c</members>
+        <members>Risks__c.Mitigation_Plan__c</members>
+        <members>Risks__c.Project__c</members>
+        <members>Risks__c.Risk_Number__c</members>
+        <members>Risks__c.Status__c</members>
+        <members>Terms__c.Definition__c</members>
+        <members>Ticket__c.Description__c</members>
+        <members>Ticket__c.Due_Date__c</members>
+        <members>Ticket__c.External__c</members>
+        <members>Ticket__c.Priority__c</members>
+        <members>Ticket__c.Project__c</members>
+        <members>Ticket__c.Requirement__c</members>
+        <members>Ticket__c.Status__c</members>
+        <members>Ticket__c.Ticket_Number__c</members>
+        <members>Ticket__c.Type__c</members>
+        <members>Use_Cases__c.Description__c</members>
+        <members>Use_Cases__c.Project_Status__c</members>
+        <members>Use_Cases__c.Project__c</members>
+        <members>Use_Cases__c.Use_Case_Number__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Meeting_Notes__c</members>
+        <members>Project__c</members>
+        <members>Requirement__c</members>
+        <members>Risks__c</members>
+        <members>Terms__c</members>
+        <members>Ticket__c</members>
+        <members>Use_Cases__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Meeting_Notes__c</members>
+        <members>Project__c</members>
+        <members>Requirement__c</members>
+        <members>Risks__c</members>
+        <members>Terms__c</members>
+        <members>Ticket__c</members>
+        <members>Use_Cases__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Mavens_Manage_MVN</members>
+        <name>Document</name>
+    </types>
+    <types>
+        <members>Project Team</members>
+        <name>HomePageLayout</name>
+    </types>
+    <types>
+        <members>Meeting_Notes__c-Meeting Notes Layout</members>
+        <members>Project__c-Project Layout</members>
+        <members>Requirement__c-Requirements Layout</members>
+        <members>Risks__c-Risk Layout</members>
+        <members>Terms__c-Term Layout</members>
+        <members>Ticket__c-Ticket Layout</members>
+        <members>Use_Cases__c-Use Case Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Meeting_Notes__c.All</members>
+        <members>Project__c.All</members>
+        <members>Project__c.All_Active</members>
+        <members>Project__c.Archive</members>
+        <members>Requirement__c.All</members>
+        <members>Requirement__c.Gaps</members>
+        <members>Requirement__c.Need_More_Info</members>
+        <members>Requirement__c.New</members>
+        <members>Terms__c.All</members>
+        <members>Ticket__c.All</members>
+        <members>Ticket__c.All_Active</members>
+        <members>Use_Cases__c.All</members>
+        <members>Use_Cases__c.All_Active</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Requirement__c.Requirement</members>
+        <name>RecordType</name>
+    </types>
+    <version>36.0</version>
+</Package>

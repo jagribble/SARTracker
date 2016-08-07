@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ShowSAR</members>
+        <members>SAR_showSAR</members>
+        <members>showSAR</members>
         <name>ApexPage</name>
     </types>
     <types>
@@ -21,12 +22,12 @@
         <name>Layout</name>
     </types>
     <types>
-        <members>SAR_Tracker_Developer</members>
+        <members>SAR_Admin</members>
         <members>SAR_User</members>
         <name>PermissionSet</name>
     </types>
     <types>
-        <members>Sar_Resources</members>
+        <members>SAR_Resources</members>
         <name>StaticResource</name>
     </types>
     <types>

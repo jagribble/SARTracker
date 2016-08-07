@@ -47,11 +47,11 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>true</enableActivities>
+    <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableFeeds>true</enableFeeds>
+    <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
-    <enableReports>true</enableReports>
+    <enableReports>false</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
@@ -60,30 +60,30 @@
         <externalId>false</externalId>
         <inlineHelpText>What was the action you took?</inlineHelpText>
         <label>Action</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
+        <length>32768</length>
         <trackTrending>false</trackTrending>
-        <type>TextArea</type>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
     </fields>
     <fields>
         <fullName>SAR_Result__c</fullName>
         <externalId>false</externalId>
-        <inlineHelpText>What was the Result?</inlineHelpText>
+        <inlineHelpText>What was the Result of you Action?</inlineHelpText>
         <label>Result</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
+        <length>32768</length>
         <trackTrending>false</trackTrending>
-        <type>TextArea</type>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
     </fields>
     <fields>
         <fullName>SAR_Situation__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>What was the situation?</inlineHelpText>
         <label>Situation</label>
-        <required>true</required>
-        <trackFeedHistory>false</trackFeedHistory>
+        <length>32768</length>
         <trackTrending>false</trackTrending>
-        <type>TextArea</type>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
     </fields>
     <label>SAR</label>
     <listViews>
@@ -92,9 +92,8 @@
         <label>All</label>
     </listViews>
     <nameField>
-        <displayFormat>SAR-{000}</displayFormat>
+        <displayFormat>SAR-{0000}</displayFormat>
         <label>SAR Number</label>
-        <trackFeedHistory>true</trackFeedHistory>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>SARs</pluralLabel>
