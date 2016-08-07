@@ -93,7 +93,7 @@
     </listViews>
     <nameField>
         <displayFormat>SAR-{000}</displayFormat>
-        <label>SAR Name</label>
+        <label>SAR Number</label>
         <trackFeedHistory>true</trackFeedHistory>
         <type>AutoNumber</type>
     </nameField>
